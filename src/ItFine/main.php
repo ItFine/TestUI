@@ -60,10 +60,10 @@ class Main extends PluginBase {
         });
         $form->setTitle("Modalidales");
         $form->setContent("Menu!");
-        $form->addButton("transferserver\nClick Para Ir Al Server", "0", "textures/others/sell");
-        $form->addButton("transferserver\nClick Para Ir Al Server", "0", "textures/others/sell");
-        $form->addButton("transferserver\nClick Para Ir Al Server", "0", "textures/others/sell");
-        $form->addButton("transferserver\nClick Para Ir Al Server", "0", "textures/others/sell");
+        $form->addButton("transferserver\nClick Para Ir Al Server", "0", "textures/others/example");
+        $form->addButton("transferserver\nClick Para Ir Al Server", "0", "textures/others/example");
+        $form->addButton("transferserver\nClick Para Ir Al Server", "0", "textures/others/example");
+        $form->addButton("transferserver\nClick Para Ir Al Server", "0", "textures/others/example");
         $form->sendToPlayer($player);
         return $form;
     }
