@@ -1,1 +1,14 @@
-aña
+name: TestUI
+author: ItFine
+api: 4.0.0
+main: ItFine\Loader
+version: 1.0.
+
+commands:
+ test:
+  permissions: UI.cmd
+  
+  permissions:
+   UI.cmd
+   default: true
+
